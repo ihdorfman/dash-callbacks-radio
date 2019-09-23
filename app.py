@@ -6,12 +6,12 @@ from dash.dependencies import Input, Output, State
 
 ########### Define your variables ######
 
-myheading1='How to use callbacks'
+myheading1='Different XKCD Options'
 tabtitle = 'xkcd'
-list_of_options=['box plot', 'correlation', 'git commit', 'scatterplot']
-list_of_images=['outlier.png', 'correlation.png', 'gitcommit.jpg', 'scatterplot.png', 'good_code.png']
+list_of_options=['Pie Chart', 'Best Line Plot Ever', 'Git Reality', 'Heat Map']
+list_of_images=['pie_charts_2x.png', 'lineplot.png', 'git2.png', 'heatmap.png', 'python.png']
 sourceurl = 'https://xkcd.com/'
-githublink = 'https://github.com/austinlasseter/dash-callbacks-radio'
+githublink = 'https://github.com/ihdorfman/dash-callbacks-radio'
 
 
 ########## Set up the chart
